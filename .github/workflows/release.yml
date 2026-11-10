@@ -10,7 +10,7 @@ on:
         required: true
 
 env:
-  IMAGE_NAME: ievangelist/profanity-filter
+  IMAGE_NAME: nookyo/profanity-filter
   # The base image is now inferred by the .NET SDK.
   # https://github.com/dotnet/dotnet-docker/blob/nightly/README.runtime-deps.md#full-tag-listing
   # BASE_IMAGE: mcr.microsoft.com/dotnet/nightly/runtime-deps:9.0.0-noble-chiseled-aot
