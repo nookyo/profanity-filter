@@ -1,6 +1,8 @@
 name: Consume pinned tag (TEST ONLY)
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/consume-test.yml"
 jobs:
   consume:
     runs-on: ubuntu-latest
