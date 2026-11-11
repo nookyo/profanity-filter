@@ -1,0 +1,14 @@
+name: Consume pinned tag (TEST ONLY)
+on:
+  workflow_dispatch:
+jobs:
+  consume:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      packages: read
+    steps:
+      - uses: nookyo/profanity-filter@v0.0.6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
