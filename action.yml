@@ -44,4 +44,4 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/nookyo/profanity-filter:latest'
+  image: 'docker://ghcr.io/nookyo/profanity-filter:v0.0.3'
